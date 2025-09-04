@@ -4,6 +4,11 @@ class TennisScorer {
     this.player2Points = 0;
   }
   showScore() {
+    if ((this.player1Points >= 4 || this.player2Points >= 4) &&
+        Math.abs(this.player1Points - this.player2Points) >= 2) {
+      return `Game for Player ${this.player1Points > this.player2Points ? 1 : 2}`;
+    }
+    
     if (this.player1Points >= 4 && this.player1Points === this.player2Points + 1) {
       return "Advantage Player 1";
     }else if (this.player2Points>=4 && this.player2Points === this.player1Points + 1) {

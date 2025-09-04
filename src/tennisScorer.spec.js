@@ -95,5 +95,31 @@ it("Ventaja vuelve a Deuce si anota el rival", () => {
   expect(scorer.showScore()).toEqual("Deuce");
 });
 
+describe("Ciclo 12: Ganador del game", () => {
+  it("Jugador 1 gana el game desde 40 - 30", () => {
+    const scorer = new TennisScorer();
+    scorer.player1Scores(); // 15 - Love
+    scorer.player1Scores(); // 30 - Love
+    scorer.player1Scores(); // 40 - Love
+    scorer.player2Scores(); // 40 - 15
+    scorer.player2Scores(); // 40 - 30
+    scorer.player1Scores(); // Game
+    expect(scorer.showScore()).toEqual("Game for Player 1");
+  });
+
+  it("Jugador 2 gana el game tras ventaja", () => {
+    const scorer = new TennisScorer();
+    scorer.player1Scores(); // 15 - Love
+    scorer.player1Scores(); // 30 - Love
+    scorer.player1Scores(); // 40 - Love
+    scorer.player2Scores(); // 40 - 15
+    scorer.player2Scores(); // 40 - 30
+    scorer.player2Scores(); // 40 - 40 (Deuce)
+    scorer.player2Scores(); // Advantage Player 2
+    scorer.player2Scores(); // Game for Player 2
+    expect(scorer.showScore()).toEqual("Game for Player 2");
+  });
+});
+
 });
 

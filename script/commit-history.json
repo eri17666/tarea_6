@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2f59d2a01e10b879f891326918e29487c65ea88a",
     "author": "ERICK1766",
     "commit": {
       "date": "2025-09-04T09:18:48.000Z",
       "message": "refactor: manejar Deuce y Advantage dinámicamente",
-      "url": "https://github.com/eri17666/tarea_6/commit/HEAD"
+      "url": "https://github.com/eri17666/tarea_6/commit/2f59d2a01e10b879f891326918e29487c65ea88a"
     },
     "stats": {
       "total": 41,
@@ -281,6 +281,25 @@
     },
     "coverage": 100,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-09-04T09:30:01.000Z",
+      "message": "feat: declarar ganador del game cuando un jugador tiene 2 puntos de ventaja",
+      "url": "https://github.com/eri17666/tarea_6/commit/HEAD"
+    },
+    "stats": {
+      "total": 31,
+      "additions": 31,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }
