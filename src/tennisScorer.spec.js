@@ -69,5 +69,13 @@ it("Empate en Deuce", () => {
   expect(scorer.showScore()).toEqual("Deuce");
 });
 
+it("Deuce → ventaja jugador 1", () => {
+  const scorer = new TennisScorer();
+  scorer.player1Scores(); scorer.player1Scores(); scorer.player1Scores();
+  scorer.player2Scores(); scorer.player2Scores(); scorer.player2Scores();
+  scorer.player1Scores();
+  expect(scorer.showScore()).toEqual("Advantage Player 1");
+});
+
 });
 

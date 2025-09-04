@@ -209,12 +209,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "10925b67820d43dafedd1c17748621bf371979e3",
     "author": "ERICK1766",
     "commit": {
       "date": "2025-09-04T08:20:28.000Z",
       "message": "feat: mostrar Deuce para empate ≥ 40",
-      "url": "https://github.com/eri17666/tarea_6/commit/HEAD"
+      "url": "https://github.com/eri17666/tarea_6/commit/10925b67820d43dafedd1c17748621bf371979e3"
     },
     "stats": {
       "total": 9,
@@ -224,6 +224,25 @@
     },
     "coverage": 100,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-09-04T08:21:59.000Z",
+      "message": "feat: mostrar ventaja para jugador 1",
+      "url": "https://github.com/eri17666/tarea_6/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }
