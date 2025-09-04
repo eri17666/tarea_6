@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7b69e25fb087e1773bc98b5a0934c35cb0d5a659",
     "author": "ERICK1766",
     "commit": {
       "date": "2025-09-04T08:08:08.000Z",
       "message": "feat: jugador 2 marca segundo punto 'Love - 30'",
-      "url": "https://github.com/eri17666/tarea_6/commit/HEAD"
+      "url": "https://github.com/eri17666/tarea_6/commit/7b69e25fb087e1773bc98b5a0934c35cb0d5a659"
     },
     "stats": {
       "total": 8,
@@ -148,6 +148,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-09-04T08:10:31.000Z",
+      "message": "feat: jugador 2 marca tercer punto 'Love - 40'",
+      "url": "https://github.com/eri17666/tarea_6/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }
