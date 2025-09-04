@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ad0fee457fef04fa41be71408209c6124d2aba2d",
     "author": "ERICK1766",
     "commit": {
       "date": "2025-09-04T08:21:59.000Z",
       "message": "feat: mostrar ventaja para jugador 1",
-      "url": "https://github.com/eri17666/tarea_6/commit/HEAD"
+      "url": "https://github.com/eri17666/tarea_6/commit/ad0fee457fef04fa41be71408209c6124d2aba2d"
     },
     "stats": {
       "total": 10,
@@ -243,6 +243,25 @@
     },
     "coverage": 100,
     "test_count": 12,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-09-04T08:23:16.000Z",
+      "message": "feat: mostrar ventaja para jugador 2",
+      "url": "https://github.com/eri17666/tarea_6/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 13,
     "failed_tests": 0,
     "conclusion": "success"
   }

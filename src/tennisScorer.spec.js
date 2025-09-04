@@ -77,5 +77,13 @@ it("Deuce → ventaja jugador 1", () => {
   expect(scorer.showScore()).toEqual("Advantage Player 1");
 });
 
+it("Deuce → ventaja jugador 2", () => {
+  const scorer = new TennisScorer();
+  scorer.player1Scores(); scorer.player1Scores(); scorer.player1Scores();
+  scorer.player2Scores(); scorer.player2Scores(); scorer.player2Scores();
+  scorer.player2Scores();
+  expect(scorer.showScore()).toEqual("Advantage Player 2");
+});
+
 });
 
