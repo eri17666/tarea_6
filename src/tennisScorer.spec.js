@@ -62,5 +62,12 @@ it("Empate en 30 - 30", () => {
   expect(scorer.showScore()).toEqual("30 - 30");
 });
 
+it("Empate en Deuce", () => {
+  const scorer = new TennisScorer();
+  scorer.player1Scores(); scorer.player1Scores(); scorer.player1Scores();
+  scorer.player2Scores(); scorer.player2Scores(); scorer.player2Scores();
+  expect(scorer.showScore()).toEqual("Deuce");
+});
+
 });
 

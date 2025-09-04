@@ -190,12 +190,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9e0a164b5af14b4559139e558e313374afff453c",
     "author": "ERICK1766",
     "commit": {
       "date": "2025-09-04T08:18:02.000Z",
       "message": "feat: mostrar empate 30 - 30",
-      "url": "https://github.com/eri17666/tarea_6/commit/HEAD"
+      "url": "https://github.com/eri17666/tarea_6/commit/9e0a164b5af14b4559139e558e313374afff453c"
     },
     "stats": {
       "total": 9,
@@ -205,6 +205,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-09-04T08:20:28.000Z",
+      "message": "feat: mostrar Deuce para empate ≥ 40",
+      "url": "https://github.com/eri17666/tarea_6/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
