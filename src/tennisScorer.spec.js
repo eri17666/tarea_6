@@ -48,5 +48,12 @@ it("Jugador 2 marca 3 puntos y jugador 1 en cero", () => {
   expect(scorer.showScore()).toEqual("Love - 40");
 });
 
+it("Empate en 15 - 15", () => {
+  const scorer = new TennisScorer();
+  scorer.player1Scores();
+  scorer.player2Scores();
+  expect(scorer.showScore()).toEqual("15 - 15");
+});
+
 });
 
