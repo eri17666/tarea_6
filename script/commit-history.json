@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "17f531e5daf435151788e90f1c265581850229c8",
     "author": "ERICK1766",
     "commit": {
       "date": "2025-09-04T07:54:23.000Z",
       "message": "feat: jugador 2 puede marcar su primer punto",
-      "url": "https://github.com/eri17666/tarea_6/commit/HEAD"
+      "url": "https://github.com/eri17666/tarea_6/commit/17f531e5daf435151788e90f1c265581850229c8"
     },
     "stats": {
       "total": 22,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-09-04T08:08:08.000Z",
+      "message": "feat: jugador 2 marca segundo punto 'Love - 30'",
+      "url": "https://github.com/eri17666/tarea_6/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 8,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }
