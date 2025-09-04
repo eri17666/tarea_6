@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2c7e7ca05c2bc0984f25d6fbe34f08c99e9956b0",
     "author": "ERICK1766",
     "commit": {
       "date": "2025-09-04T08:15:49.000Z",
       "message": "feat: mostrar empate 15 - 15",
-      "url": "https://github.com/eri17666/tarea_6/commit/HEAD"
+      "url": "https://github.com/eri17666/tarea_6/commit/2c7e7ca05c2bc0984f25d6fbe34f08c99e9956b0"
     },
     "stats": {
       "total": 9,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-09-04T08:18:02.000Z",
+      "message": "feat: mostrar empate 30 - 30",
+      "url": "https://github.com/eri17666/tarea_6/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
