@@ -285,16 +285,35 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a1ace56fbca909c9644eafc166d85472d12c93d1",
     "author": "ERICK1766",
     "commit": {
       "date": "2025-09-04T09:30:01.000Z",
       "message": "feat: declarar ganador del game cuando un jugador tiene 2 puntos de ventaja",
-      "url": "https://github.com/eri17666/tarea_6/commit/HEAD"
+      "url": "https://github.com/eri17666/tarea_6/commit/a1ace56fbca909c9644eafc166d85472d12c93d1"
     },
     "stats": {
       "total": 31,
       "additions": 31,
+      "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 100,
+    "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "ERICK1766",
+    "commit": {
+      "date": "2025-09-04T09:46:45.000Z",
+      "message": "feat: agregar interfaz HTML para el marcador de Tennis",
+      "url": "https://github.com/eri17666/tarea_6/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
       "deletions": 0,
       "date": "2025-09-04"
     },
